@@ -1,0 +1,121 @@
+@import "../../vars.css";
+
+/* ===== Container ===== */
+/* .container {
+  color: var(--color-text);
+  margin: 80px 10%;
+  animation: fadeIn 0.8s ease-in-out;
+  text-align: center;
+} */
+.container {
+  color: var(--color-text);
+  margin: 50px auto;        /* reduced the height spacing */
+  width: 75%;               /* shrink overall width */
+  animation: fadeIn 0.8s ease-in-out;
+  text-align: center;
+}
+
+
+/* ===== Title ===== */
+.title {
+  color: var(--color-text);
+  font-size: 38px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: var(--color-primary);
+  display: block;
+  margin: 14px auto 0;
+  border-radius: 4px;
+}
+
+/* ===== Grid Layout ===== */
+.grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  justify-items: center;
+}
+
+/* ===== Certificate Card ===== */
+.card {
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0.6) 100%);
+  border-radius: 15px;
+  padding: 30px 35px;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Icon ===== */
+.icon {
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 8px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* ===== Text ===== */
+.card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.card p {
+  font-size: 17px;
+  opacity: 0.9;
+  color: #fff;
+}
+
+/* ===== Button ===== */
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 20px;
+  background: linear-gradient(90deg, #0df159 0%, #e80505 100%);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #e80505 0%, #0df159 100%);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(13, 241, 89, 0.4);
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,110 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin: 50px auto;        /* reduced the height spacing */
+  width: 75%;               /* shrink overall width */
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+
+.title {
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: var(--color-primary);
+  display: block;
+  margin: 14px auto 0;
+  border-radius: 4px;
+}
+
+/* ========== Cards ========== */
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card {
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0.6) 100%);
+  border-radius: 15px;
+  padding: 30px 35px;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+/* ========== ROWS: Resume Style Layout ========== */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+/* Left side */
+.college {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.degree {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Right side */
+.duration, .location {
+  font-size: 18px;
+  opacity: 0.9;
+  text-align: right;
+}
+
+/* Score row */
+.score {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* ========== Responsive ========== */
+@media screen and (max-width: 800px) {
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .duration, .location {
+    text-align: left;
+  }
+
+  .college {
+    font-size: 22px;
+  }
+
+  .degree {
+    font-size: 16px;
+  }
+}
+
+/* Smooth Fade Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}

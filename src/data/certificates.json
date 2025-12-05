@@ -1,0 +1,23 @@
+[
+  {
+    "title": "5G Introductory-Level Certification",
+    "issuer": "Qualcomm Wireless Academy",
+    "year": "2025",
+    "imageSrc": "certificates/5g.png",
+    "link": ""
+  },
+  {
+    "title": "Responsive Web Design",
+    "issuer": "freeCodeCamp",
+    "hours": "300+ Hours",
+    "imageSrc": "certificates/webdesign.png",
+    "link": "https://www.freecodecamp.org/"
+  },
+  {
+    "title": "Fundamentals of Cybersecurity (EDU-102)",
+    "issuer": "Zscaler Cyber Academy",
+    "year": "",
+    "imageSrc": "certificates/cyber.png",
+    "link": ""
+  }
+]
