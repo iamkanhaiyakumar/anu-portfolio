@@ -1,0 +1,93 @@
+[
+  {
+    "role": "Patent Published – Seizure Detector and Monitor",
+    "organisation": "Indian Patent Office",
+    "startDate": "June, 2025",
+    "endDate": "",
+    "imageSrc": "achievements/patent1.png",
+    "experiences": [
+      "Published patent for a wearable EMG-based seizure detection system.",
+      "Developed real-time monitoring with Bluetooth alert functionality.",
+      "Filed under Application No. 202541047220 A in Patent Office Journal 23/2025."
+    ],
+    "links": [
+      {
+        "label": "View Patent",
+        "url": "https://ipindia.gov.in"
+      }
+    ]
+  },
+
+  {
+    "role": "Patent Published – AI-Powered Diagnosis of Erythemato-Squamous Diseases",
+    "organisation": "Indian Patent Office",
+    "startDate": "March, 2025",
+    "endDate": "",
+    "imageSrc": "achievements/patent2.png",
+    "experiences": [
+      "Published patent for an AI-based diagnostic system using ML/DL models.",
+      "Integrated MATLAB GUI for interactive disease classification.",
+      "Filed under Application No. 202541026351 A."
+    ],
+    "links": [
+      {
+        "label": "View Patent",
+        "url": "https://ipindia.gov.in"
+      }
+    ]
+  },
+
+  {
+    "role": "First Prize Winner",
+    "organisation": "Tronix Trivia – Medhanvesh 2024",
+    "startDate": "",
+    "endDate": "",
+    "imageSrc": "achievements/trophy1.png",
+    "experiences": [
+      "Won 1st place in a technical electronics quiz competition.",
+      "Demonstrated strong analytical & circuit-level knowledge."
+    ],
+     "links": [
+      {
+        "label": "Event Details",
+        "url": "https://www.saeaindia.org/e-baja"
+      }
+    ]
+  },
+
+  {
+    "role": "Second Prize Winner",
+    "organisation": "Hack4SDG – Synergia 2025",
+    "startDate": "",
+    "endDate": "",
+    "imageSrc": "achievements/trophy2.png",
+    "experiences": [
+      "Secured 2nd place in engineering-focused hackathon.",
+      "Built innovative solutions addressing UN SDG themes."
+    ],
+     "links": [
+      {
+        "label": "Event Details",
+        "url": "https://www.saeaindia.org/e-baja"
+      }
+    ]
+  },
+
+  {
+    "role": "Volunteer",
+    "organisation": "SAE E-BAJA Event",
+    "startDate": "",
+    "endDate": "",
+    "imageSrc": "achievements/volunteer.png",
+    "experiences": [
+      "Assisted braking system operations in national-level motorsport event.",
+      "Collaborated with engineering teams ensuring event readiness."
+    ],
+    "links": [
+      {
+        "label": "Event Details",
+        "url": "https://www.saeaindia.org/e-baja"
+      }
+    ]
+  }
+]

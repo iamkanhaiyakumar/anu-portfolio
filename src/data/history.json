@@ -1,0 +1,60 @@
+[
+  {
+    "role": "Patent Author – Seizure Detector and Monitor",
+    "organisation": "Indian Patent Office",
+    "startDate": "June, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Developed a low-cost wearable seizure detection system using EMG sensors and ESP32.",
+      "Implemented real-time EMG signal processing for seizure classification.",
+      "Integrated Bluetooth-based alert alerts for caregivers.",
+      "Published under Application No. 202541047220 A in The Patent Office Journal (23/2025)."
+    ],
+    "imageSrc": "history/patent1.png",
+    "links": [
+      {
+        "label": "View Patent",
+        "url": "https://ipindia.gov.in" 
+      }
+    ]
+  },
+
+  {
+    "role": "Patent Author – AI-Powered Diagnosis of Erythemato-Squamous Diseases",
+    "organisation": "Indian Patent Office",
+    "startDate": "March, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Developed an ML/DL-based diagnostic model for skin disease classification.",
+      "Integrated MATLAB GUI for clinical decision support.",
+      "Performed dataset preprocessing, model training, and accuracy optimization.",
+      "Published under Application No. 202541026351 A by the Indian Patent Office."
+    ],
+    "imageSrc": "history/patent2.png",
+    "links": [
+      {
+        "label": "View Patent",
+        "url": "https://ipindia.gov.in"
+      }
+    ]
+  },
+
+  {
+    "role": "Event Volunteer",
+    "organisation": "SAE E-BAJA National Motorsports Event",
+    "startDate": "",
+    "endDate": "",
+    "experiences": [
+      "Assisted technical teams in the brakes system domain.",
+      "Supported operations and safety workflows during the national motorsports event.",
+      "Collaborated closely with engineering teams for event execution."
+    ],
+    "imageSrc": "history/volunteer.png",
+    "links": [
+      {
+        "label": "Event Overview",
+        "url": "https://www.saeaindia.org/e-baja"
+      }
+    ]
+  }
+]

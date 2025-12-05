@@ -1,0 +1,205 @@
+@import "../../vars.css";
+
+/* ===== Container ===== */
+.container {
+  color: var(--color-text);
+  margin: 80px 10%;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+  position: relative;
+}
+
+/* ===== Title ===== */
+.title {
+  color: var(--color-text);
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: var(--color-primary);
+  margin: 14px auto 0;
+  border-radius: 4px;
+}
+
+/* ===== Skills Container ===== */
+.skillsContainer {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ========== FADE EDGE EFFECT (Premium look) ========== */
+.skillsContainer::before,
+.skillsContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.skillsContainer::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-bg), transparent);
+}
+
+.skillsContainer::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-bg), transparent);
+}
+
+/* ===== Two Scrolling Rows ===== */
+.skills {
+  display: flex;
+  gap: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 10px 0;
+  width: max-content;
+}
+
+/* Optional: Pause on Hover */
+.skills:hover {
+  animation-play-state: paused;
+}
+
+/* Direction Animations */
+.row1 {
+  animation: scrollRight 10s linear infinite;
+  opacity: 0.95;
+}
+
+.row2 {
+  animation: scrollLeft 10s linear infinite;
+  opacity: 0.95;
+}
+/* .row3 {
+  animation: scrollRight 11s linear infinite; /* same or opposite */
+  /* opacity: 0.92; */
+/* } */ 
+
+
+/* Smooth Infinite Loop */
+@keyframes scrollRight {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes scrollLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ===== Skill Card ===== */
+.skill {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: 0.3s ease;
+  padding-bottom: 12px;  /* ⭐ important */
+  transform: none !important;
+}
+.skill p {
+  transition: none !important;
+  transform: none !important;
+}
+
+
+/* Subtle Lift + Glow */
+.skill:hover {
+  transform: translateY(-12px) scale(79) rotateX(12deg);
+  filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.3));
+}
+.skill:hover p {
+  color: var(--color-primary);
+  text-shadow: 0 0 10px var(--color-primary);
+}
+
+/* ===== Skill Icon ===== */
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+  
+}
+
+.skillImageContainer:hover {
+  background-color: var(--color-primary);
+ transform: scale(.85) rotate(8deg);
+  background-color: var(--color-primary);
+  box-shadow: 0 0 25px var(--color-primary);
+}
+
+.skillImageContainer img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+/* ===== Text Under Icon ===== */
+.skill p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-text);
+  transition: 0.3s ease;
+}
+
+.skill:hover p {
+  color: var(--color-primary);
+}
+
+/* ===== Skill Link ===== */
+.skillLink {
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.skillLink:hover {
+  transform: scale(1.1);
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 768px) {
+  .skills { gap: 20px; }
+
+  .skillImageContainer {
+    width: 90px;
+    height: 90px;
+  }
+
+  .skillImageContainer img {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .skills { gap: 15px; }
+}
+
+/* ===== Fade In Page ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}

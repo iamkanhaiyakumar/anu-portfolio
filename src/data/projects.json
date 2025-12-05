@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Seizure Monitor and Detector",
+    "imageSrc": "projects/seizure.jpg",
+    "description": "A wearable EMG-based seizure detection system that captures muscle signals, processes them in real time, and alerts caregivers using signal processing techniques and embedded hardware.",
+    "skills": ["EMG", "Signal Processing", "Arduino", "Python"],
+    "demo": "",
+    "source": ""
+  },
+
+  {
+    "title": "Smart Attendance System",
+    "imageSrc": "projects/attendance.jpg",
+    "description": "A MATLAB-based facial recognition attendance system built using the MyNet1 algorithm with IP-based contextual logging and automated Excel output storage.",
+    "skills": ["MATLAB", "Computer Vision", "MyNet1", "Excel Automation"],
+    "demo": "",
+    "source": ""
+  },
+
+  {
+    "title": "Job Role Prediction Web Application",
+    "imageSrc": "projects/jobrole.jpg",
+    "description": "A full-stack web application that predicts suitable job roles based on academic inputs using a Python ML model, MySQL database, and Tailwind CSS for UI.",
+    "skills": ["Python", "Tailwind CSS", "MySQL", "Machine Learning"],
+    "demo": "",
+    "source": ""
+  },
+
+  {
+    "title": "The Game of Great Wall",
+    "imageSrc": "projects/greatwall.jpg",
+    "description": "A Python-based game that uses BFS algorithms to compute optimal movement paths and visualize real-time shortest-path strategies.",
+    "skills": ["Python", "BFS Algorithm", "Problem Solving"],
+    "demo": "",
+    "source": ""
+  },
+
+  {
+    "title": "Traffic Light Controller",
+    "imageSrc": "projects/trafficlight.jpg",
+    "description": "A Synopsys-based digital traffic light controller designed using sequential logic and FSM concepts to simulate realistic traffic signal sequences.",
+    "skills": ["Digital Design", "FSM", "Synopsys", "VLSI"],
+    "demo": "",
+    "source": ""
+  },
+
+  {
+    "title": "LED Glow Using Hand Gesture",
+    "imageSrc": "projects/gesture.jpg",
+    "description": "A gesture-controlled LED system that integrates Arduino with Python and OpenCV to detect hand movements and trigger LED responses in real time.",
+    "skills": ["Python", "OpenCV", "Arduino", "Computer Vision"],
+    "demo": "",
+    "source": ""
+  }
+]

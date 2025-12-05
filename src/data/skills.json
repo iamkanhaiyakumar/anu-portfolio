@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png",
+    "link": "https://www.w3schools.com/python/"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png",
+    "link": "https://www.w3schools.com/c/"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/cpp.png",
+    "link": "https://www.w3schools.com/cpp/"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png",
+    "link": "https://www.w3schools.com/java/"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png",
+    "link": "https://www.w3schools.com/sql/"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "link": "https://www.w3schools.com/html/"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "link": "https://www.w3schools.com/css/"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png",
+    "link": "https://tailwindcss.com/docs"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png",
+    "link": "https://www.w3schools.com/js/"
+  },
+  {
+    "title": "Machine Learning",
+    "imageSrc": "skills/ml.png",
+    "link": "https://scikit-learn.org/stable/"
+  },
+  {
+    "title": "Pandas",
+    "imageSrc": "skills/pandas.png",
+    "link": "https://pandas.pydata.org/docs/"
+  },
+  {
+    "title": "OpenCV",
+    "imageSrc": "skills/opencv.png",
+    "link": "https://docs.opencv.org/"
+  },
+  {
+    "title": "MATLAB",
+    "imageSrc": "skills/matlab.png",
+    "link": "https://www.mathworks.com/help/matlab/"
+  },
+  {
+    "title": "Arduino",
+    "imageSrc": "skills/arduino.png",
+    "link": "https://www.arduino.cc/"
+  },
+  {
+    "title": "Git & GitHub",
+    "imageSrc": "skills/git.png",
+    "link": "https://docs.github.com/"
+  },
+  {
+    "title": "AWS (EC2, S3)",
+    "imageSrc": "skills/aws.png",
+    "link": "https://aws.amazon.com/"
+  },
+  {
+    "title": "Azure Fundamentals",
+    "imageSrc": "skills/azure.png",
+    "link": "https://azure.microsoft.com/"
+  },
+  {
+    "title": "Verilog",
+    "imageSrc": "skills/verilog.png",
+    "link": "https://www.chipverify.com/verilog/verilog-tutorial"
+  },
+  {
+    "title": "Synopsys",
+    "imageSrc": "skills/synopsys.png",
+    "link": "https://www.synopsys.com/"
+  },
+  {
+    "title": "Cadence",
+    "imageSrc": "skills/cadence.png",
+    "link": "https://www.cadence.com/"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "skills/vscode.png",
+    "link": "https://code.visualstudio.com/docs"
+  },
+  {
+    "title": "IntelliJ",
+    "imageSrc": "skills/intellij.png",
+    "link": "https://www.jetbrains.com/idea/documentation/"
+  },
+  {
+    "title": "Linux",
+    "imageSrc": "skills/linux.png",
+    "link": "https://www.linux.org/"
+  },
+  {
+    "title": "Jupyter Notebook",
+    "imageSrc": "skills/jupyter.png",
+    "link": "https://docs.jupyter.org/"
+  },
+  {
+    "title": "Google Colab",
+    "imageSrc": "skills/colab.png",
+    "link": "https://colab.research.google.com/"
+  }
+]

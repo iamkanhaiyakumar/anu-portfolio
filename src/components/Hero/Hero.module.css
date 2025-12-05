@@ -1,0 +1,214 @@
+@import "../../vars.css";
+
+/* ===== Container ===== */
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 10%;
+  z-index: 1;
+  flex-wrap: wrap;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* ===== Left Content ===== */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 2;
+  max-width: 50%;
+}
+
+/* ===== Title ===== */
+.title {
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-family: var(--font-roboto);
+  background: linear-gradient(90deg, #ffffff 0%, #00ffff 60%, #00a3ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  letter-spacing: 1.5px;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #00eaff 0%, #0077ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Subtitle (Tagline) ===== */
+.subtitle {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.gradientText {
+  background: linear-gradient(90deg, #0df1a2 0%, #00bfff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Description ===== */
+.description {
+  font-size: 21px;
+  line-height: 1.8;
+  font-family: var(--font-roboto);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 40px;
+  text-align: justify;
+  max-width: 90%;
+}
+
+/* ===== Buttons ===== */
+.btnGroup {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.contactBtn,
+.resumeBtn {
+  text-decoration: none;
+  color: var(--color-text);
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px 35px;
+  background: linear-gradient(90deg, #19376d 0%, #0abde3 100%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.contactBtn:hover,
+.resumeBtn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, #0abde3 0%, #19376d 100%);
+}
+
+/* ===== Hero Image ===== */
+.heroImg {
+  width: 45%;
+  z-index: 1;
+  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.4));
+  transition: transform 0.4s ease;
+  animation: floating 3s ease-in-out infinite;
+}
+
+.heroImg:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Floating Animation ===== */
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* ===== Background Blur Effects ===== */
+.topBlur {
+  position: absolute;
+  width: 45vw;
+  height: 45vw;
+  top: -100px;
+  left: -10vw;
+  border-radius: 50%;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(120px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 60vw;
+  height: 50vw;
+  bottom: -80px;
+  right: -20vw;
+  border-radius: 50%;
+  background: rgba(25, 55, 109, 0.6);
+  filter: blur(120px);
+  z-index: 0;
+}
+
+/* ===== Responsive Design ===== */
+@media screen and (max-width: 950px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content {
+    align-items: center;
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .heroImg {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .btnGroup {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .contactBtn,
+  .resumeBtn {
+    width: 130%;
+    text-align: center;
+    font-size: 22px;
+    padding: 14px 0;
+    
+  }
+  .contactBtn:hover,
+  .resumeBtn:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(90deg, #0df159 0%, #e80505 100%);
+  }
+}
+
+/* ===== Fade In Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
